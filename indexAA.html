@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lorem ipsum dolor sit amet.</title>
+    <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link
+      href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <!-- Fonts -->
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700"
+    />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <style>
+      #intro {
+        background-color: rgb(218, 255, 192);
+      }
+      header{
+       
+         /* background-image: url("./img/pexels-luis-gomes-546819.jpg");
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        opacity: 0.1;   */
+        
+            
+      }
+
+      #head{
+        
+        /* border: solid;
+        border-radius: 10px;
+        border-color:aliceblue; */
+        padding-top: 10px;
+        
+       
+      
+      }
+
+      #head div{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center;  */
+      
+        
+      }
+      #head img{
+        padding-left: 10px;
+        width: 25%;
+        border-radius: 50%;
+
+        /* z-index: 2; */
+        
+        
+        
+      }
+
+      #navbar{
+       list-style: none;
+       border: solid;
+       border-radius: 5px;
+       overflow: auto;
+       background-color: grey;
+       
+       color: whitesmoke;
+       
+      }
+
+      #navbar li{
+        list-style: none;
+        float: left; 
+        padding-left: 10px;
+        padding-right: 20px; 
+        margin-bottom: 5px; 
+      }
+
+      #navbar div{
+        float: right;
+      }
+      .cont {
+        margin: 50px;
+        border-radius: 10px;
+      }
+
+      .cont2 {
+        margin: 50px;
+        border-radius: 20px;
+      }
+
+      #colm_one {
+        display: flex;
+        
+      }
+      .box {
+        border: solid;
+        border-color: bisque;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 5px;
+       
+      }
+
+      .btn_one {
+        margin-left: 40%;
+      }
+      .proc_display {
+        display: flex;
+      }
+    </style>
+  </head>
+  <header>
+    <div id="head">
+      <div>
+        <img src="./img/pexels-christina-morillo-1181359.jpg" alt="Image not found." />
+        <h1>Jane Doe</h1>
+        <h4>janedoe@myprofile.com</h4>
+      </div>
+    </div>
+    
+    <nav id="navbar">
+      <div>
+        <img src="" alt="" />
+          <ul>
+            <li>Home</li>
+            <li>
+              <select name="Projects" onchange="location = this.value;"> 
+                <option value="">Projects</option>
+                <option value="contact_us.html">Project One</option> 
+                <option value="contact_us.html">Project Two</option> 
+                <option value="contact_us.html">Project Three</option> 
+              </select> 
+            </li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+    </nav>
+    
+  </header>
+
+  <body>
+    <main id="main">
+      <div id="intro" class="cont">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum,
+        tenetur? Eligendi dignissimos alias similique earum quibusdam culpa,
+        iste voluptate id, aperiam placeat vitae? Sequi aspernatur nostrum ex
+        soluta quasi reiciendis at ea perferendis illum, corporis, provident
+        odit laudantium expedita porro eius sint facilis omnis commodi tenetur
+        hic possimus, dolor dolores!
+        <div id="colm_one">
+          <div class="box">
+            <h3>Project One</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              deleniti sequi quisquam tenetur voluptas enim. Optio facere magnam
+              expedita explicabo cumque inventore corporis quo deserunt delectus
+              fugit aspernatur quae cupiditate animi eligendi saepe, natus ex
+              eveniet necessitatibus? Architecto dolore repellendus aliquam
+              neque ipsum quia, deleniti error vero sed, fuga unde?
+            </p>
+            <div class="btn_one">
+              <button>Read More</button>
+            </div>
+          </div>
+
+          <div class="box">
+            <h3>Project Two</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              deleniti sequi quisquam tenetur voluptas enim. Optio facere magnam
+              expedita explicabo cumque inventore corporis quo deserunt delectus
+              fugit aspernatur quae cupiditate animi eligendi saepe, natus ex
+              eveniet necessitatibus? Architecto dolore repellendus aliquam
+              neque ipsum quia, deleniti error vero sed, fuga unde?
+            </p>
+            <button class="btn_one">Read More</button>
+          </div>
+
+          <div class="box">
+            <h3>Project Three</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              deleniti sequi quisquam tenetur voluptas enim. Optio facere magnam
+              expedita explicabo cumque inventore corporis quo deserunt delectus
+              fugit aspernatur quae cupiditate animi eligendi saepe, natus ex
+              eveniet necessitatibus? Architecto dolore repellendus aliquam
+              neque ipsum quia, deleniti error vero sed, fuga unde?
+            </p>
+            <button class="btn_one">Read More</button>
+          </div>
+        </div>
+      </div>
+      <!-- Third section -->
+      <section class="p-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md">
+              <div>
+                <img
+                  src="./image/java-image.jpg"
+                  width="400px"
+                  height="400px"
+                  alt=""
+                />
+              </div>
+            </div>
+              <div class="col-md">
+                <div>
+                  <img
+                    src="./image/cyber-attack-using-computer-algorithm-lines-connect-dots-digital-transformation-concepts-binary-architecture-150284473.jpg"
+                    width="400px"
+                    height="400px"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md">
+                <div>
+                  <img
+                    src="./image/istockphoto-1148231995-2048x2048.jpg"
+                    width="400px"
+                    height="400px"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
